@@ -1,7 +1,6 @@
-import "./styles/navbar.css";
-import CatalogPage from './catalog';
+import "./styles/catalog.css";
 
-function Navbar(){
+function CatalogPage(){
     return(
         <div>
             <nav>
@@ -9,7 +8,7 @@ function Navbar(){
                     <a href="">Log In</a>
                     <a href="">Search</a>
                     <a href="">Subscribe</a>
-                    <a href="./catalog">Catalog</a>
+                    <a href="">Catalog</a>
                     <a href="">Menu</a>
                 </div>
             </nav>
@@ -18,4 +17,4 @@ function Navbar(){
     );
 }
 
-export default Navbar;
+export default CatalogPage;

@@ -1,0 +1,21 @@
+.productLine{
+    display: flex;
+    justify-content: center;
+}
+
+.productItem{
+    width:300px;
+    padding:20px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.product-img{
+    width:80%;
+}
+
+.product-content{
+    text-align: left;
+}
+
