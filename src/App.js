@@ -3,16 +3,17 @@ import './App.css';
 import Navbar from './components/navbar';
 import Footermenu from './components/footer';
 import Products from "./components/products";
-import CatalogPage from './components/catalog';
+import CatalogPage from './pages/catalog';
 
 function App() {
   return (
 
     <div className="App">
-    <Navbar></Navbar>
+    <Navbar />
     <h1>New Arrival From Momo</h1>
-    <Products></Products>
-    <Footermenu></Footermenu>
+    <CatalogPage />
+
+    <Footermenu />
     
     </div>
 

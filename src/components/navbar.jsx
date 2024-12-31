@@ -1,5 +1,5 @@
 import "./styles/navbar.css";
-import CatalogPage from './catalog';
+import CatalogPage from '../pages/catalog';
 
 function Navbar(){
     return(
@@ -9,7 +9,7 @@ function Navbar(){
                     <a href="">Log In</a>
                     <a href="">Search</a>
                     <a href="">Subscribe</a>
-                    <a href="./catalog">Catalog</a>
+                    <a href="">Catalog</a>
                     <a href="">Menu</a>
                 </div>
             </nav>
