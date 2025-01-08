@@ -20,9 +20,6 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
 
-
-
-      <h1>New Arrival From Momo</h1>
       <Footermenu />
       
     </div>

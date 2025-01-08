@@ -9,10 +9,8 @@ h1{
     padding-top:20px;
     color: brown;
 }
-
-.productLine{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding:20px;
+.cat{
+    display: inline-block;
+    width:500px; 
 }
+

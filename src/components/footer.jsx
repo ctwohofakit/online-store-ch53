@@ -5,12 +5,11 @@ function Footermenu(){
         <div>
             <nav>
                 <div className="footer-menu">
-                    <a href="">Log In</a>
-                    <a href="">Search</a>
-                    <a href="">Subscribe</a>
-                    <a href="">Menu</a>
+                    <p>Copyright © 2025 | All Rights Reserved | Bear and Dear</p>
                 </div>
             </nav>
+
+            
         </div>
 
     );

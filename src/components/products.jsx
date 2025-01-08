@@ -2,24 +2,24 @@ import QuantityPicker from "./quantityPicker";
 import "./styles/products.css";
 import 'bootstrap/dist/css/bootstrap.css';
 
-function Products(){
+function Products(props){
     return(
-
+    <div className="product-set">
     <div className="productItem">
-        <img className="product-img" src="./blush.jpg" alt="blush"></img>
+        <img className="product-img" src={props.data.image} alt="blush"></img>
         <div>
-        <h3> Momo Blush</h3>
-        <p>seven color selection</p>
-        <p className="product-content">ipsum beatae ipsum beatae repellendus ullamrepellendus ullam ab at expeditar</p>
+        <h3> {props.data.title} </h3>
+        <p>{props.data.category}</p>
 
-            <label className="price">$20</label>
-            <label className="price">$20</label>
+            <label>$99.99</label>
+            <label className="price">${props.data.price}</label>
             <QuantityPicker />
         </div>
         <br></br>
         <div>
         <a href="#"><button className="btn btn-dark btn-lg">Add to cart</button></a>
         </div>
+    </div>
     </div>
         
 

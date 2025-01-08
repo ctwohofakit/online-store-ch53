@@ -1,23 +1,21 @@
 .footer-menu{
-    padding:5px;
+    padding:10x;
     width: 100%;
     display:flex;
     justify-content: space-around;
-    height: 10vh;
-    background-color: rgb(255, 255, 255);
+    height: 50px;
+    background-color: rgb(12, 12, 12);
     align-items:center;
     
 }
 
-a{
+.footer-menu p{
     text-transform: uppercase;
     font-size: 18px;
     text-decoration: none;
-    color: rgb(10, 7, 12);
+    color: rgb(152, 144, 156);
     letter-spacing: 1px;
     font-weight:bolder;
+    transform:none;
 }
 
-a:hover{
-    color:rgb(29, 28, 126);
-}
