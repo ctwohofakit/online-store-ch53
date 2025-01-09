@@ -11,9 +11,12 @@ function Products(props){
         <h3> {props.data.title} </h3>
         <p>{props.data.category}</p>
 
-            <label>$99.99</label>
-            <label className="price">${props.data.price}</label>
+            <div className="parent">
+                <label>$99.99</label>
+                <label className="price">${props.data.price}</label>
+            </div>
             <QuantityPicker />
+
         </div>
         <br></br>
         <div>

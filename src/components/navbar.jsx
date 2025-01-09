@@ -22,6 +22,9 @@ return(
         <li className="nav-item">
             <Link to="/about"className="nav-link" >About</Link>
         </li>
+        <li className="nav-item">
+            <Link to="/admin"className="nav-link" >Admin</Link>
+        </li>
         </ul>
 
 
