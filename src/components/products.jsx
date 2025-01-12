@@ -3,6 +3,10 @@ import "./styles/products.css";
 import 'bootstrap/dist/css/bootstrap.css';
 
 function Products(props){
+    function AddtoCart(){
+        console.log("clicked");
+    }
+
     return(
     <div className="product-set">
     <div className="productItem">
@@ -15,12 +19,10 @@ function Products(props){
                 <label>$99.99</label>
                 <label className="price">${props.data.price}</label>
             </div>
-            <QuantityPicker />
-
-        </div>
-        <br></br>
-        <div>
-        <a href="#"><button className="btn btn-dark btn-lg">Add to cart</button></a>
+            <div className="parent">
+                <QuantityPicker />
+                <button  className="btn btn-dark btn-sm" onClick={AddtoCart}>Add</button>
+            </div>
         </div>
     </div>
     </div>

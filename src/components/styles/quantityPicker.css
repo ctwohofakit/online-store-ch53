@@ -1,4 +1,9 @@
 .qt-picker{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
+}
+
+.qt-picker label{
+    padding: 10px;
 }
