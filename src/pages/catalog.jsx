@@ -6,14 +6,14 @@ const dummyData =[
     {
         "title": "Lipstick",
         "category": "Lip",
-        "price": 12.99,
+        "price": 13.99,
         "image": "./images/lip.jpg",
-        "_id": "123oasfhjkl"
+        "_id": "02L"
     },
     {
         "title": "Blush",
         "category": "Face",
-        "price": 15.99,
+        "price": 15.49,
         "image": "./images/blush.jpg",
         "_id": "01F"
     },
@@ -22,26 +22,26 @@ const dummyData =[
         "category": "Eyes",
         "price": 18.99,
         "image": "./images/mascara.jpg",
-        "_id": "01m"
+        "_id": "01M"
     },
     {
         "title": "Lip Tint",
         "category": "Lip",
         "price": 9.87,
         "image": "./images/tint.png",
-        "_id": "12tint"
+        "_id": "1tint"
     },
     {
         "title": "Consealer Paletter",
         "category": "Face",
-        "price": 18.99,
+        "price": 17.8,
         "image": "./images/Concealer.png",
         "_id": "01C"
     },
     {
         "title": "Purple Eye Shadow",
         "category": "Eyes",
-        "price": 18.99,
+        "price": 23.995,
         "image": "./images/EyeShadow.png",
         "_id": "01E"
     },

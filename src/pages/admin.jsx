@@ -104,7 +104,7 @@ function Admin(){
                     <input type="text" className="form-control"name="catergory" onBlur={handleProduct} />
                 </div>
                 <div className="save-button">
-                <button className="btn btn-outline-info" onClick={saveProduct}>Save Product</button>
+                <button className="btn btn-outline-info btn-lg" onClick={saveProduct}>Save Product</button>
                 </div>
                 <br></br>
                 <ul>
@@ -125,7 +125,7 @@ function Admin(){
                     <input type="number" className="form-control" name="discount" onBlur={handleCoupon}/>
                 </div>
                 <div className="save-button">
-                <button type="button" className="btn btn-outline-info" onClick={saveCoupon}>Save Coupon</button>
+                <button type="button" className="btn btn-outline-info btn-lg" onClick={saveCoupon}>Save Coupon</button>
                 </div>
                 <br></br>
                 <ul>

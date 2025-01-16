@@ -1,13 +1,13 @@
 .aboutItem {
-    background-color: rgb(93, 94, 93);
+    background-color: #d9d2c2;
     height:100%;
     padding: 5px;
 }
 
 .aboutItem h1{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 .aboutItem h3{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }

@@ -1,27 +1,27 @@
 .admin{
     padding:30px;
-    background: #222D32;
+    background: #696761;
 }
 
 .admin h1{
-    color:aliceblue;
+    color:#ffffff;
 }
 
 .admin-wrapper{
     display: flex;
     justify-content: center;
-    padding:20px;
-    gap:100px;
+    padding:30px;
+    gap:150px;
 
 }
 
 .admin .nice-form{
-    background: #1A2226;
-    color:darkcyan;
-    border: 1px solid black;
+    background: #302c28;
+    color:rgb(255, 255, 255);
+    border-radius: 15px;
     padding: 15px;
     text-align:center;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .register-product{
@@ -33,13 +33,13 @@
     width:400px;
 }
 .register-coupon h3{
-    color:darkcyan;
+    color:rgb(255, 255, 255);
 }
 
 .admin .mb-3{
     text-align:left;
     font-weight: bold;
-    color:aliceblue;
+    color:rgb(255, 255, 255);
     text-align:left;
 
 }

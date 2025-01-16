@@ -1,15 +1,17 @@
 .catalog{
-    background-color: rgb(248, 239, 227);
+    background-color: #d9d2c2;
+
     padding:30px;
 
 }
 
-h1{
+.catalog h1{
     text-align: center;
     padding-top:20px;
-    color: brown;
+    color: #610C27;
 }
-.cat{
+.catalog .cat{
+
     display: inline-block;
     width:500px; 
 }
