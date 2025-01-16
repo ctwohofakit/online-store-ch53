@@ -27,7 +27,7 @@ const dummyData =[
     {
         "title": "Lip Tint",
         "category": "Lip",
-        "price": 9.87,
+        "price": 11.87,
         "image": "./images/tint.png",
         "_id": "1tint"
     },

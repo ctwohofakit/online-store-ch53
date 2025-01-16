@@ -35,8 +35,9 @@ return(
 
         <div className="d-flex">
             <button className="btn btn-outline-primary fw-bold" >{user.name}</button>
-            <Link to="/cart"><button className="btn btn-success fw-bold">{cart.length}</button></Link>
-
+            <Link to="/cart"className="btn btn-outline-light">
+            <span className="badge text-bg-primary">{cart.length}</span>View Cart
+            </Link>
         </div>
     </div>
     </div>
