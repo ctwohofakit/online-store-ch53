@@ -5,7 +5,7 @@ function Footermenu(){
         <div>
             <nav>
                 <div className="footer-menu">
-                    <p>Copyright © 2025 | All Rights Reserved | </p>
+                    <p>Copyright © 2025 | All Rights Reserved | Velvet </p>
                 </div>
             </nav>
 

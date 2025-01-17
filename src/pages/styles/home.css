@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+}
+
+
 .homeItem {
 
     background-color: #d9d2c2;
@@ -86,4 +91,64 @@
 100% {
     transform: translate(-100%, 0);
     }
+}
+.homeCard{
+    width:100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+
+.homeCard .card{
+    width:600px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color:rgb(255, 255, 255);
+}
+
+.homeCard .cardImage{
+    border-radius: 11px;
+    display: flex;
+    width:596px;
+}
+
+.homeCard .h3{
+    margin-top:5px;
+}
+
+
+
+.homeCard .cardIcon{
+    width:100px;
+    padding: 5px;
+
+}
+
+.homeCard .card:hover{
+    transform:skewX(-1deg);
+}
+
+.homeCard .card:hover .cardIcon{
+    animation: bounce 5s ease-in;
+}
+
+@keyframes bounce {
+0% {
+    transform: translateX(0);
+}
+11.11111% {
+    transform: translateX(-25px);
+}
+22.22222% {
+    transform: translateX(0);
+}
+44.44444% {
+    transform: translateX(-25px);
+}
+100% {
+    transform: translateX(0);
+}
 }

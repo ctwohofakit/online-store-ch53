@@ -62,6 +62,47 @@ function Home(){
         <Catalog />
         </div>
 
+        <div>
+        <h1>Shop Our Catergories</h1>
+            <div className="homeCard wrapper">
+            <Link to="/catalog">
+                <div className="card">
+                    <img className="cardImage"src="./images/homeFace.png"></img>
+                    <div className="cardContent">
+                    <h3>FACE</h3>
+                    <img className="cardIcon"src="./images/arrow.png"></img></div>
+                </div>
+            </Link>
+            <Link to="/catalog">
+                <div className="card">
+                    <img className="cardImage"src="./images/homeHair.png"></img>
+                    <div className="cardContent">
+                    <h3>Hair</h3>
+                    <img className="cardIcon"src="./images/arrow.png"></img></div>
+                </div>
+            </Link>
+            <Link to="/catalog">
+                <div className="card">
+                    <img className="cardImage"src="./images/homeEye.png"></img>
+                    <div className="cardContent">
+                    <h3>Eyes</h3>
+                    <img className="cardIcon"src="./images/arrow.png"></img></div>
+                </div>
+            </Link>
+            <Link to="/catalog">
+                <div className="card">
+                    <img className="cardImage"src="./images/homeLip.png"></img>
+                    <div className="cardContent">
+                    <h3>Lip</h3>
+                    <div>
+                    <img className="cardIcon"src="./images/arrow.png"></img>
+                    </div>
+                    </div>
+                </div>
+            </Link>
+            </div>
+        </div>
+
     </div>
         
 
