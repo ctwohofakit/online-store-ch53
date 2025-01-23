@@ -1,6 +1,5 @@
 .catalog{
     background-color: #d9d2c2;
-
     padding:30px;
 
 }
@@ -8,11 +7,28 @@
 .catalog h1{
     text-align: center;
     padding-top:20px;
-    color: #610C27;
+    color: #7c062e;
+    padding-bottom: 15px;
+    text-transform: uppercase;
 }
-.catalog .cat{
 
+.catalog .cat-wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+
+.catalog .cat {
+    display: flex;
+    justify-content: space-evenly;
+    width:700px; 
+
+}
+.catalog .cat .btn{
     display: inline-block;
-    width:500px; 
+    justify-content: space-around;
+    width:100px; 
+    margin-bottom: 15px;
+
 }
 

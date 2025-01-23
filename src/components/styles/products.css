@@ -4,15 +4,17 @@
 }
 
 .productItem{
+    background-color: rgb(180, 172, 162);
     width:370px;
     height:500px;
     padding:5px;
-    border-style: solid;
     border-width: 1px;
     display: inline-block;
     margin:0 10px 10px 0;
     padding:10px;
+    box-shadow: 0px 0px 2px 1px;
     vertical-align:top;
+    font-weight: bold;
 }
 
 
@@ -26,10 +28,13 @@
 .productItem:hover{
     border-color:rgb(97, 76, 73);
     border-width: 2px;
-    box-shadow: 2px 2px 10px 1px;
-    transform: scale(1.1);
+    box-shadow: 2px 2px 15px 2px;
+    transform: scale(1.05);
 }
 
+.productItem h3{
+    margin-top:5px;
+}
 .product-img{
     width:340px;
     height: 300px;

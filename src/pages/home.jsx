@@ -58,11 +58,6 @@ function Home(){
 
 
         <div>
-        <h1>Recent Popular</h1>
-        <Catalog />
-        </div>
-
-        <div>
         <h1>Shop Our Catergories</h1>
             <div className="homeCard wrapper">
             <Link to="/catalog">

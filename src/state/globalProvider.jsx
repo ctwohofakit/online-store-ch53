@@ -3,7 +3,7 @@ import GlobalContext from './globalContext';
 
 function GlobalProvider(props) {
     const [cart, setCart] = useState( [] );
-    const [user, setUser] = useState({name:"Sergio", id:42}) ;
+    const [user, setUser] = useState({name:"Kiti", id:42}) ;
 
     function addProductToCart(prod) {
         console.log("Global Add ", prod);
