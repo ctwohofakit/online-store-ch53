@@ -7,6 +7,41 @@ const dummyData =[
         "_id": "02L"
     },
     {
+        "title": "Vel Hair Repair ",
+        "category": "Hair",
+        "price": 26.89,
+        "image": "./images/hair-action.jpg",
+        "_id": "01h"
+    },
+    {
+        "title": "Long Hold Hair Gel",
+        "category": "Hair",
+        "price": 12.99,
+        "image": "./images/hairGel.jpg",
+        "_id": "02h"
+    },
+    {
+        "title": "Hair Make Up",
+        "category": "Hair",
+        "price": 15.23,
+        "image": "./images/hair-makeup.jpg",
+        "_id": "03h"
+    },
+    {
+        "title": "Vel Hair Power",
+        "category": "Hair",
+        "price": 13.99,
+        "image": "./images/hair-powder.jpg",
+        "_id": "04h"
+    },
+    {
+        "title": "Ana Hair Spray",
+        "category": "Hair",
+        "price": 16.77,
+        "image": "./images/hairSpray.jpg",
+        "_id": "05h"
+    },
+    {
         "title": "Sun Blush",
         "category": "Face",
         "price": 15.49,

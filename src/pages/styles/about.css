@@ -1,13 +1,28 @@
 .aboutItem {
     background-color: #d9d2c2;
-    height:100%;
-    padding: 5px;
+
+}
+.aboutItem img{
+    animation: fadeup 2s ease-in;
 }
 
 .aboutItem h1{
     color: rgb(0, 0, 0);
+    background-color: rgb(24, 24, 24);
+    color:#d9d2c2;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    padding: 10px;
+
 }
 
 .aboutItem h3{
     color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.aboutItem p{
+    padding:10px;
+    font-size: 18px;
 }
