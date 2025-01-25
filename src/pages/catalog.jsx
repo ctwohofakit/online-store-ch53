@@ -47,7 +47,7 @@ function CatalogPage(){
 
             <div className="productLine">
             {
-                allProducts.filter(prod=>prod.category==selectedCategory||!selectedCategory).map(prod=><Products data={prod} />)
+                allProducts.filter(prod=>prod.category===selectedCategory||!selectedCategory).map(prod=><Products data={prod} />)
             }
             </div>
 

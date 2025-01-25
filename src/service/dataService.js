@@ -86,7 +86,7 @@ const dummyData =[
 
 ]
 
-const dummyCategories=["Face","Eyes","Skin","Lip","Hair"];
+const dummyCategories=["Face","Eyes","Lip","Hair"];
 
 class DataService{
 

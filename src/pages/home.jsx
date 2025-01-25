@@ -1,6 +1,5 @@
 import "./styles/home.css";
 import 'bootstrap/dist/css/bootstrap.css';
-import Catalog from "./catalog";
 import { Link } from 'react-router-dom';
 
 
@@ -57,40 +56,41 @@ function Home(){
         </div>
 
 
+        <br/>
         <div>
-        <h1>Shop Our Catergories</h1>
+        <h1>Popular Catergories</h1>
             <div className="homeCard wrapper">
             <Link to="/catalog">
                 <div className="card">
-                    <img className="cardImage"src="./images/homeFace.png"></img>
+                    <img className="cardImage"src="./images/homeFace.png" alt="cardImage"></img>
                     <div className="cardContent">
                     <h3>FACE</h3>
-                    <img className="cardIcon"src="./images/arrow.png"></img></div>
+                    <img className="cardIcon"src="./images/arrow.png" alt="cardImage"></img></div>
                 </div>
             </Link>
             <Link to="/catalog">
                 <div className="card">
-                    <img className="cardImage"src="./images/homeHair.png"></img>
+                    <img className="cardImage"src="./images/homeHair.png" alt="cardImage"></img>
                     <div className="cardContent">
                     <h3>Hair</h3>
-                    <img className="cardIcon"src="./images/arrow.png"></img></div>
+                    <img className="cardIcon"src="./images/arrow.png" alt="cardImage"></img></div>
                 </div>
             </Link>
             <Link to="/catalog">
                 <div className="card">
-                    <img className="cardImage"src="./images/homeEye.png"></img>
+                    <img className="cardImage"src="./images/homeEye.png" alt="cardImage"></img>
                     <div className="cardContent">
                     <h3>Eyes</h3>
-                    <img className="cardIcon"src="./images/arrow.png"></img></div>
+                    <img className="cardIcon"src="./images/arrow.png" alt="cardImage"></img></div>
                 </div>
             </Link>
             <Link to="/catalog">
                 <div className="card">
-                    <img className="cardImage"src="./images/homeLip.png"></img>
+                    <img className="cardImage"src="./images/homeLip.png" alt="cardImage"></img>
                     <div className="cardContent">
                     <h3>Lip</h3>
                     <div>
-                    <img className="cardIcon"src="./images/arrow.png"></img>
+                    <img className="cardIcon"src="./images/arrow.png" alt="cardImage"></img>
                     </div>
                     </div>
                 </div>
