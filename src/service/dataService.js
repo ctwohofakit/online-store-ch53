@@ -3,7 +3,7 @@ const dummyData =[
         "title": "Ana Lip Gloss",
         "category": "Lip",
         "price": 13.99,
-        "image": "./images/lip.jpg",
+        "image": "./images/Velvetlip.jpg",
         "_id": "02L"
     },
     {

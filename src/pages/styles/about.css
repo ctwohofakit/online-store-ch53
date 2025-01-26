@@ -21,8 +21,52 @@
     color: rgb(0, 0, 0);
     padding: 10px;
 }
+.aboutItem h4{
+    text-align: left;
+    padding: 5%;
+    font-size: 28px;
+    font-weight: lighter;
+    animation: fadeup 4s ease-in;
+
+}
 
 .aboutItem p{
-    padding:10px;
+    padding: 5px;
     font-size: 18px;
+    font-weight: lighter;
+
+}
+.about-content {
+    margin-top: 30px;
+    display: flex;
+    padding: 1.5%;
+}
+
+.about-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    animation: fadein 6s ease-out;
+
+
+}
+.about-txt h2{
+    padding: 0.5%;
+    font-weight: light;
+
+}
+
+.about-txt p{
+    font-size: 26px;
+    text-align: left;
+    padding: 50px;
+}
+
+.aboutItem .about-txt-img{
+    padding: 30px;
+    filter: drop-shadow(40px 30px 20px rgba(0, 0, 0, 0.5))invert(10%);;
+    animation: fadeup 3.5s ease-in-out;
+    transition-delay: 0.5s;
+    border-radius: 80px;
 }
