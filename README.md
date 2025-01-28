@@ -14,13 +14,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Homepage
 
-![online-store image](home.png)
+![online-store image](home1.png)
 
 ### Catalog Page
-![online-store image2](cart.png)
+![online-store image2](Catalog1.png)
 
 ### Cart Page
-![online-store image3](Catalog_Page.png)
+![online-store image3](cart.png)
 
 ### Admin Page
 ![online-store image1](admin.png)
