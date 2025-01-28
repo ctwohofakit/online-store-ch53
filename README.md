@@ -17,11 +17,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ![online-store image](home.png)
 
 ### Catalog Page
-![online-store image1](admin.png)
-
-### Cart Page
 ![online-store image2](cart.png)
 
-### Admin Page
+### Cart Page
 ![online-store image3](Catalog_Page.png)
+
+### Admin Page
+![online-store image1](admin.png)
 
