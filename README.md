@@ -13,14 +13,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 ### Homepage
-![Alt text](images/Screenshot_home.png)
+![Alt text](/Screenshot_home.png)
 
 ### Catalog Page
-![Alt text](images/Screenshot_admin.png)
+![Alt text](/Screenshot_admin.png)
 
 ### Cart Page
-![Alt text](images/Screenshot_cart.png)
+![Alt text](/Screenshot_cart.png)
 
 ### Admin Page
-![Alt text](images/Catalog_Page.png)
+![Alt text](/Catalog_Page.png)
 
