@@ -32,7 +32,7 @@ function Products(props){
 
             <div className="parent">
                 <label>$ {(props.data.price*quantity).toFixed(2)}</label>
-                <label className="price">$ {props.data.price.toFixed(2)}</label>
+                <label className="price">$ {(+props.data.price).toFixed(2)}</label>
             </div>
             <div className="parent">
                 <QuantityPicker onChange={handleQt} />

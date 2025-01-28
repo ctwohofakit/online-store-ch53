@@ -9,9 +9,9 @@ function CatalogPage(){
     const [allCategories, setAllCategories]=useState([]);
     const [selectedCategory, setSelectedCategory]=useState("");
 
-    function loadData(){
-        const prods=dataService.getProducts();
-        const cate=dataService.getCatergory();
+    async function loadData(){
+        const prods=await dataService.getProducts();
+        const cate=await dataService.getCatergory();
         setAllProducts(prods);
         setAllCategories(cate);
     }

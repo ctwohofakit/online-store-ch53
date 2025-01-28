@@ -1,6 +1,9 @@
 import "./styles/admin.css";
 import 'bootstrap/dist/css/bootstrap.css';
-import { useState } from "react";
+import {useEffect, useState } from "react";
+import dataService from "../service/dataService";
+import axios from "axios";
+
 
 
 function Admin(){
@@ -17,6 +20,16 @@ function Admin(){
         price:"",
         catergory:"",
     })
+
+    async function LoadData(){
+        const prods =await dataService.getProducts();
+        setAllProducts(prods);
+    }
+
+    useEffect(function(){
+        LoadData();
+    }, []);
+
 
     function handleCoupon(x){
         const text =x.target.value;
@@ -42,7 +55,11 @@ function Admin(){
 
     function saveCoupon(){
         console.log(coupon);
-        let copy=[...allCoupons];// create an copy array
+
+
+
+        // create an copy array
+        let copy=[...allCoupons];
         copy.push(coupon);
         setAllCoupons(copy);
     }
@@ -61,7 +78,7 @@ function Admin(){
             copy.image=text;
 
         }else if (name==="price"){
-            copy.price=text;
+            copy.price=parseFloat(text);//parse text to number for server
 
         }else if (name==="catergory"){
             copy.catergory=text;
@@ -69,9 +86,14 @@ function Admin(){
         setProduct(copy);
     }
 
-    function saveProduct(){
-        console.log(product);
+    async function saveProduct(){
+        console.log(product); //dataservice->server
+
+        //save to server
+        let savePrduct =await dataService.saveProducts(product);
         let copy=[...allProducts];
+        console.log("save:", savePrduct);
+
         copy.push(product);
         setAllProducts(copy);
     }
